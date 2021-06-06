@@ -1,0 +1,30 @@
+.main__container {
+    grid-area: main;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.list__container {
+    width: 700px;
+    float: left;
+}
+
+.main__new {
+    width: 210px;
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.body__box img {
+    width: 210px;
+    height: 300px;
+}
+
+.body__box p {
+    padding: 5px 10px;
+}

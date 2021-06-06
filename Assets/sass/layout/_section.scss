@@ -1,0 +1,35 @@
+.list__section {
+    grid-area: section;
+    width: 220px;
+    float: right;
+}
+
+.head__section {
+    width: 220px;
+    border-bottom: 1px solid gray;
+}
+
+.tags__section {
+    border-bottom: 1px solid gray;
+}
+
+.tags ul {
+    padding: 0;
+    list-style: none;
+}
+
+.tags__section ul li {
+    padding: 2px 4px;
+    background-color: steelblue;
+    margin-right: 1px;
+    color: white;
+}
+
+.news__section {
+    margin-bottom: 50px;
+}
+
+.news__section img {
+    width: 220px;
+    height: 200px;
+}

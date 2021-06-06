@@ -1,0 +1,45 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    background-color: #dcebe2;
+    margin: 0;
+}
+
+.contenedor {
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 20% 60% 20%;
+    grid-template-columns: 100%;
+    grid-template-areas: "navbar""main""footer";
+}
+
+@media (min-width: 992px) {
+    .contenedor {
+        display: grid;
+        grid-template-rows: 10% 80% 10%;
+        grid-template-columns: 80% 20%;
+        grid-template-areas:
+            "navbar navbar"
+            "main section"
+            "footer footer";
+    }
+}
+
+@media (min-width: 576px) {
+    .contenedor {
+        display: grid;
+        grid-template-rows: 10% 80% 10%;
+        grid-template-columns: 100%;
+        grid-template-areas: "navbar""main""footer";
+    }
+
+}
+
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+    color: black;
+}

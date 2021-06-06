@@ -1,0 +1,32 @@
+.container__nav {
+    grid-area: navbar;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+}
+
+.logo_nav {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+    top: 40px;
+    position: relative
+}
+
+.navbar__bar {
+    position: relative;
+    right: 50px;
+    width: 100%;
+    text-align: right;
+}
+
+.navbar__bar ul li a {
+    list-style: none;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.input-menu {
+    border-radius: 30px;
+}
